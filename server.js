@@ -18,8 +18,12 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(logger)
 
+// Static Page
+app.use("/static", express.static("static"))
+
 // Routes Public
 app.use("/", publicRoute)
+
 // Routes API
 app.use("/api", apiRoute)
 
