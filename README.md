@@ -71,7 +71,7 @@ Rain City Theme is designed with the following principles:
 
 ## 🐛 Reporting Issues
 
-If you encounter any issues or have suggestions for improvements, please create an issue on the [Issues page](https://github.com/username/rain-city-theme/issues).
+If you encounter any issues or have suggestions for improvements, please create an issue on the [Issues page](https://github.com/danisyam/rain-city-theme/issues).
 
 ## 📜 License
 
