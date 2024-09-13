@@ -1,2 +1,27 @@
+# Dependencies
 node_modules
+
+# VS Code extension files
+*.vsix
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
+
+# IDE configuration files
+.idea/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build output directories
+dist/
+build/
+
+# Local configuration files
 .env
+.env.local

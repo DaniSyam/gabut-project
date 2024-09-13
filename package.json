@@ -1,23 +1,55 @@
 {
-  "name": "gabut-project",
-  "version": "1.0.0",
-  "description": "Gimana Ngalirnya Aja",
-  "main": "server.js",
-  "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+  "name": "rain-city-theme",
+  "displayName": "Rain City Theme",
+  "description": "An elegant Rain City theme for Visual Studio Code",
+  "version": "0.1.0",
+  "author": {
+    "name": "Dani Syam",
+    "email": "danisyamsudin0@gmail.com"
   },
-  "author": "Dani Syam",
+  "publisher": "danisyam",
   "license": "MIT",
-  "dependencies": {
-    "cookie-parser": "^1.4.6",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "express-async-handler": "^1.2.0",
-    "mongoose": "^6.3.4",
-    "nodemailer": "^6.7.5"
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "color-theme",
+    "dark-theme",
+    "light-theme",
+    "theme",
+    "rain-city"
+  ],
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rain City Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rain-city-theme-dark.json"
+      },
+      {
+        "label": "Rain City Light",
+        "uiTheme": "vs",
+        "path": "./themes/rain-city-theme-light.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
   },
   "devDependencies": {
-    "nodemon": "^2.0.16"
-  }
+    "vsce": "^2.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danisyam/rain-city-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danisyam/rain-city-theme/issues"
+  },
+  "homepage": "https://github.com/danisyam/rain-city-theme#readme"
 }
